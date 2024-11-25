@@ -1,8 +1,16 @@
+import {Separator} from "@/components/ui/separator.jsx";
+
 export const Home = () => {
 
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <div style={{paddingLeft: '20px'}}>
+            <Separator className="my-4"/>
+            <div className="flex h-5 items-center space-x-4 text-sm">
+                <Separator orientation="vertical"/>
+                <div>Docs</div>
+                <Separator orientation="horizontal"/>
+                <div>Source</div>
+            </div>
+        </div>
     )
 }
