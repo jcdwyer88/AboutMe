@@ -1,7 +1,7 @@
 import './assets/index.css'
 import {Home} from "./components/Home.jsx";
 
-function App() {
+export const App = () => {
 
     return (
         <>
@@ -9,5 +9,3 @@ function App() {
         </>
     )
 }
-
-export default App
